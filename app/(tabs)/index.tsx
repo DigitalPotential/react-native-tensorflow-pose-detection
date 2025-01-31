@@ -174,9 +174,6 @@ function CameraApp() {
           let xNormalized = xOriginal / frame.width;
           let yNormalized = yOriginal / frame.height;
 
-          // Flip Y-axis to match screen coordinates
-          yNormalized = 1 - yNormalized;
-
           // Mirror for front camera
           if (isFrontCamera) {
             xNormalized = 1 - xNormalized;
