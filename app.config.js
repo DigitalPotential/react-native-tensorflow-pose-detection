@@ -26,6 +26,7 @@ module.exports = {
         "android.permission.CAMERA",
         "android.permission.RECORD_AUDIO",
       ],
+      package: "com.digitalpotential.reactnativetensorflowposedetection",
       minSdkVersion: 26,
     },
     web: {
@@ -51,6 +52,9 @@ module.exports = {
           enableMicrophonePermission: true,
           microphonePermissionText:
             "$(PRODUCT_NAME) needs access to your Microphone.",
+          android: {
+            minSdkVersion: 26,
+          },
         },
       ],
       "react-native-fast-tflite",
@@ -63,7 +67,7 @@ module.exports = {
         origin: false,
       },
       eas: {
-        projectId: "b01562be-92d5-4f3a-bf7b-c2b17946829a",
+        projectId: "4968c73a-98a9-4f0c-be5f-af7e9593b620",
       },
     },
   },
